@@ -13,6 +13,7 @@ const Gettime = () => {
   //   today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
   // var dateTime = date + " " + time;
   React.useEffect(
+    // this is a ignorable line
     function () {
       setInterval(function () {
         getCurrentTime();
